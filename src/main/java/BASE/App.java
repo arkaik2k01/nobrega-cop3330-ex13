@@ -66,6 +66,6 @@ public class App
 
     private void sendOutput(InterestCalc calc)
     {
-        System.out.printf("$%,.2f invested at %.2f% for %d years compounded %d times per year is $%,.2f.", calc.getPrincipal(), calc.getrInterest(), calc.getYears(), calc.getCompound(),calc.getTotal());
+        System.out.printf("$%,d invested at %.2f%% for %d years compounded %d times per year is $%,.2f.", calc.getPrincipal(), calc.getrInterest(), calc.getYears(), calc.getCompound(),calc.getTotal());
     }
 }

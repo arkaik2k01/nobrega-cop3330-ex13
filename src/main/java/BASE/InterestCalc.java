@@ -55,7 +55,7 @@ public class InterestCalc
 
     public void investTotal()
     {
-        this.total = principal * Math.pow((1 + rInterest / compound), (years * compound));
+        this.total = principal * (Math.pow((1 + ((rInterest / 100) / compound)), (years * compound))); //P(1 + r/n)^(n*t)
     }
 
 
